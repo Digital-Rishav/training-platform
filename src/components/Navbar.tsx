@@ -1,7 +1,7 @@
-
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -17,15 +17,32 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 border-b border-gray-200 bg-white">
+        <header className="sticky top-0 z-50 border-b border-gray-200 bg-white shadow-sm">
             <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
+
                 {/* Logo */}
                 <Link
                     href="/"
-                    className="text-lg font-bold text-gray-900"
+                    className="flex items-center gap-3"
                     onClick={() => setIsOpen(false)}
                 >
-                    EcoWish
+                    <Image
+                        src="/images/logo.png"
+                        alt="EcoWish Academy"
+                        width={48}
+                        height={48}
+                        className="rounded-full object-cover"
+                        priority
+                    />
+
+                    <div className="flex flex-col leading-tight">
+                        <span className="font-serif text-3xl tracking-tight">
+                            EcoWish
+                        </span>
+                        <span className="text-sm font-medium text-[#8B7355]">
+                            Craft India
+                        </span>
+                    </div>
                 </Link>
 
                 {/* Mobile Menu Button */}
@@ -53,7 +70,7 @@ export default function Navbar() {
                                 key={link.name}
                                 href={link.href}
                                 onClick={() => setIsOpen(false)}
-                                className="rounded-lg px-4 py-3 text-base font-medium text-gray-700 hover:bg-gray-100"
+                                className="rounded-lg px-4 py-3 text-base font-medium text-gray-700 hover:text-[#B68652]"
                             >
                                 {link.name}
                             </Link>
@@ -64,7 +81,7 @@ export default function Navbar() {
                     <Link
                         href="/contact"
                         onClick={() => setIsOpen(false)}
-                        className="mt-4 block rounded-lg bg-black px-4 py-3 text-center text-sm font-semibold text-white"
+                        className="mt-4 block rounded-lg bg-[#241C17] px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-[#B68652]"
                     >
                         Enquire for Admission
                     </Link>
@@ -73,4 +90,3 @@ export default function Navbar() {
         </header>
     );
 }
-

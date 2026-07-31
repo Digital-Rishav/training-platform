@@ -1,0 +1,150 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 240 480">
+
+    <defs>
+
+        <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#D6B892"/>
+            <stop offset="100%" stop-color="#9D7550"/>
+        </linearGradient>
+
+        <linearGradient id="stemGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#B68652"/>
+            <stop offset="100%" stop-color="#7C5B3B"/>
+        </linearGradient>
+
+    </defs>
+
+    <!-- Stem -->
+
+    <path
+        d="M120 20
+           C118 120 122 180 118 260
+           C116 320 120 380 118 460"
+        stroke="url(#stemGradient)"
+        stroke-width="2.2"
+        fill="none"
+        stroke-linecap="round"/>
+
+    <!-- LEFT -->
+
+    <g opacity=".8">
+
+        <path
+            d="
+            M118 85
+            C78 60 48 70 35 110
+            C68 106 98 98 118 85Z"
+            fill="url(#leafGradient)"/>
+
+        <path
+            d="M118 85
+               C95 95 70 102 45 108"
+            stroke="#F5E7D4"
+            stroke-width="1.2"
+            fill="none"/>
+
+    </g>
+
+    <!-- RIGHT -->
+
+    <g opacity=".8">
+
+        <path
+            d="
+            M120 145
+            C158 120 195 130 210 170
+            C172 168 145 160 120 145Z"
+            fill="url(#leafGradient)"/>
+
+        <path
+            d="M120 145
+               C142 155 165 162 190 168"
+            stroke="#F5E7D4"
+            stroke-width="1.2"
+            fill="none"/>
+
+    </g>
+
+    <!-- LEFT -->
+
+    <g opacity=".75">
+
+        <path
+            d="
+            M118 210
+            C75 185 42 200 26 240
+            C65 236 92 226 118 210Z"
+            fill="url(#leafGradient)"/>
+
+        <path
+            d="M118 210
+               C92 220 65 228 38 236"
+            stroke="#F5E7D4"
+            stroke-width="1.2"
+            fill="none"/>
+
+    </g>
+
+    <!-- RIGHT -->
+
+    <g opacity=".75">
+
+        <path
+            d="
+            M120 280
+            C165 255 198 268 215 312
+            C172 305 145 295 120 280Z"
+            fill="url(#leafGradient)"/>
+
+        <path
+            d="M120 280
+               C145 292 170 300 195 306"
+            stroke="#F5E7D4"
+            stroke-width="1.2"
+            fill="none"/>
+
+    </g>
+
+    <!-- LEFT -->
+
+    <g opacity=".7">
+
+        <path
+            d="
+            M118 350
+            C82 330 50 345 34 384
+            C72 380 96 370 118 350Z"
+            fill="url(#leafGradient)"/>
+
+        <path
+            d="M118 350
+               C94 360 68 368 45 378"
+            stroke="#F5E7D4"
+            stroke-width="1.2"
+            fill="none"/>
+
+    </g>
+
+    <!-- RIGHT -->
+
+    <g opacity=".7">
+
+        <path
+            d="
+            M120 410
+            C155 390 190 398 206 438
+            C170 435 145 425 120 410Z"
+            fill="url(#leafGradient)"/>
+
+        <path
+            d="M120 410
+               C145 420 168 428 190 434"
+            stroke="#F5E7D4"
+            stroke-width="1.2"
+            fill="none"/>
+
+    </g>
+
+</svg>
