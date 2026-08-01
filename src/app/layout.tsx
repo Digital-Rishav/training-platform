@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = { title: "Ecowish Craft India Pvt. Ltd.", description: "Explore creative training in portrait making, handicrafts, home decor, textile design, fashion art, and festive crafts.",  icons: {
     icon: "/favicon.ico",
-  },};
+  }};
 
 
 export default function RootLayout({

@@ -22,7 +22,7 @@ export default function AboutTraining() {
           </div>
 
           {/* Floating Quote */}
-          <div className="absolute -bottom-6 right-3 max-w-[15.625rem] rounded-2xl border border-[#C9A96E]/40 bg-[#8B7355] p-5 shadow-xl sm:right-6">
+          <div className="absolute -bottom-6 right-3 max-w-62.5 rounded-2xl border border-[#C9A96E]/40 bg-[#8B7355] p-5 shadow-xl sm:right-6">
             <p className="font-serif text-lg italic leading-6 text-[#FFF8E7]">
               "Creativity is not just something we learn. It is something we
               practice."

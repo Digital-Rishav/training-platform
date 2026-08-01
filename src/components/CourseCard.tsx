@@ -20,11 +20,13 @@ export default function CourseCard({
   return (
     <article className="group overflow-hidden rounded-3xl border border-[#D8D0C2] bg-[#FAF8F3] transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
       {/* Image */}
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative aspect-4/3 overflow-hidden">
         <Image
           src={image}
           alt={title}
           fill
+          priority
+          sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
 

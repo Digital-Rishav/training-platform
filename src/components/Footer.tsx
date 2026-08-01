@@ -19,7 +19,7 @@ export default function Footer() {
             alt="EcoWish Craft India"
             width={56}
             height={56}
-            className="rounded-full object-cover"
+            className="rounded-full object-cover h-auto"
             priority
         />
 
@@ -179,10 +179,10 @@ export default function Footer() {
                         </Link>
 
                         <Link
-                            href="/terms"
+                            href="/terms-and-conditions"
                             className="transition-colors hover:text-[#8B7355]"
                         >
-                            Terms
+                            Terms and Conditions
                         </Link>
                     </div>
                 </div>
