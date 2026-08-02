@@ -185,7 +185,7 @@ ${message || "I would like to know more about this course."}
                     href="tel:+919060628478"
                     className="mt-1 block text-base text-[#2E2A24] transition-colors hover:text-[#8B7355]"
                   >
-                    +91 00000 00000
+                    +91 9709709717
                   </a>
                 </div>
               </div>
@@ -222,7 +222,7 @@ ${message || "I would like to know more about this course."}
                   </p>
 
                   <p className="mt-1 text-base leading-6 text-[#2E2A24]">
-                    Your Training Center Address
+                    Ward no-05, Murli Manjharia, Po-Belwa Bahuari PS-GAUNAHA , District-West Champaran
                     <br />
                     Bihar, India
                   </p>
@@ -347,7 +347,7 @@ ${message || "I would like to know more about this course."}
                   <option value="Festive Crafts">
                     Festive Crafts
                   </option>
-                  <option value="other">
+                  <option value="Others">
                     Others(Please specifies in Message.)
                   </option>
                 </select>
