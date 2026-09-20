@@ -19,8 +19,8 @@ export default function Footer() {
             alt="EcoWish Craft India"
             width={56}
             height={56}
-            className="rounded-full object-cover h-auto"
-            priority
+            className="h-14 w-14 rounded-full object-cover"
+            
         />
 
         <div>

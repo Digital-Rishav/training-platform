@@ -396,7 +396,7 @@ export default function AboutPage() {
                   <div className="relative h-36 w-36 overflow-hidden rounded-full border-4 border-[#C9A96E] sm:h-44 sm:w-44">
 
                     <Image
-                      src="/images/founders/cofounder.jpg"
+                      src="/images/founders/cofounder.jpeg"
                       alt="Amiya Swarup"
                       fill
                       sizes="176px"

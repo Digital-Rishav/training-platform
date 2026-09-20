@@ -32,6 +32,7 @@ export default function Navbar() {
                             src="/images/logo.png"
                             alt="EcoWish Craft India Academy"
                             fill
+                            sizes="48px"
                             className="object-cover"
                             priority
                         />
