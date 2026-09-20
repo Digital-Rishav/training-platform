@@ -255,11 +255,11 @@ export default function TermsPage() {
                                 </p>
 
                                 <p className="mt-2 text-sm leading-7 text-[#6B645A]">
-                                    Email: Add your official email address
+                                    Email: 
                                     <br />
-                                    Phone: Add your official phone number
+                                    Phone: 
                                     <br />
-                                    Address: Add your official business address
+                                    Address: 
                                 </p>
                             </div>
                         </TermsSection>
