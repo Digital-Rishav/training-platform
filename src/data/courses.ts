@@ -7,7 +7,7 @@ export const courses = [
     category: "Drawing & Art",
     description:
       "Learn the fundamentals of portrait making and develop the skills to bring expressions and personalities to life.",
-    image: "/images/courses/portrait-image.avif",
+    image: "/images/courses/portrait.png",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const courses = [
     category: "Creative Design",
     description:
       "Discover how to create unique decorative pieces that bring creativity, character, and beauty into living spaces.",
-    image: "/images/courses/home-decor.jpg",
+    image: "/images/courses/home-decor1.jpg",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ export const courses = [
     category: "Textile & Pattern",
     description:
       "Learn creative approaches to textile design, patterns, textures, and artistic surface decoration.",
-    image: "/images/courses/textile-design.jpg",
+    image: "/images/courses/textile-design1.jpg",
   },
   {
     id: 5,
@@ -52,6 +52,6 @@ export const courses = [
     category: "Festive Creativity",
     description:
       "Create beautiful handmade decorations and artistic pieces inspired by festivals and celebrations.",
-    image: "/images/courses/festive-craft.jpg",
+    image: "/images/courses/festive-decor.jpg",
   },
 ];
